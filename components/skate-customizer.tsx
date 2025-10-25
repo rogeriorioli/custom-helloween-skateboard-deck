@@ -106,7 +106,6 @@ export default function SkateCustomizer() {
                   style={{
                     aspectRatio: '1/1',
                     backgroundImage: `url(${design.image || "/placeholder.svg"})`,
-                    backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     boxShadow: selectedDesign.id === design.id
@@ -130,7 +129,6 @@ export default function SkateCustomizer() {
                   style={{
                     aspectRatio: '1/1',
                     backgroundImage: `url(${customImage || "/placeholder.svg"})`,
-                    backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     boxShadow: selectedDesign.id === 999
@@ -304,7 +302,6 @@ export default function SkateCustomizer() {
                 style={{
                   aspectRatio: '1/1',
                   backgroundImage: `url(${design.image || "/placeholder.svg"})`,
-                  backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
                   boxShadow: selectedDesign.id === design.id
@@ -326,9 +323,7 @@ export default function SkateCustomizer() {
                   }`}
                 onClick={() => setSelectedDesign({ id: 999, name: "Your Design", image: customImage })}
                 style={{
-                  aspectRatio: '1/1',
                   backgroundImage: `url(${customImage || "/placeholder.svg"})`,
-                  backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
                   boxShadow: selectedDesign.id === 999
