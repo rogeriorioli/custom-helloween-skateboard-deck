@@ -19,7 +19,6 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Build Your Cursed Deck 🧟 | Halloween Skate Shop",
   description: "Choose your Halloween print, customize your deck and bring terror to the streets.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
